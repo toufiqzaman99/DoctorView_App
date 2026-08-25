@@ -139,3 +139,9 @@ DoctorView/
   Firebase libraries once, then caches them.
 - **`targetSdk 34` warning** → intentional: keeps the demo simple on Android 15+
   devices (no edge-to-edge handling needed). You can raise it later.
+
+
+
+
+
+Done by - Md Toufiquzzaman
