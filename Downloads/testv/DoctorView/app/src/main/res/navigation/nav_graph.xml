@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Navigation graph: defines every screen of the app and
+    the possible paths between them.
+    The four top-level destinations are the bottom-navigation tabs;
+    the rest are sections opened from Home / Doctors / Profile.
+-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- ===== Bottom-navigation tabs ===== -->
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.doctorview.app.fragments.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_bookAppointmentFragment"
+            app:destination="@id/bookAppointmentFragment">
+            <argument
+                android:name="doctorId"
+                app:argType="string" />
+            <argument
+                android:name="doctorName"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_homeFragment_to_doctorDetailsFragment"
+            app:destination="@id/doctorDetailsFragment">
+            <argument
+                android:name="doctorId"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_homeFragment_to_chatRoomFragment"
+            app:destination="@id/chatRoomFragment">
+            <argument
+                android:name="doctorId"
+                app:argType="string" />
+            <argument
+                android:name="doctorName"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_homeFragment_to_doctorsFragment"
+            app:destination="@id/doctorsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_symptomAnalysisFragment"
+            app:destination="@id/symptomAnalysisFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_diseaseInfoFragment"
+            app:destination="@id/diseaseInfoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_recordsFragment"
+            app:destination="@id/recordsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_emergencyFragment"
+            app:destination="@id/emergencyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/doctorsFragment"
+        android:name="com.doctorview.app.fragments.DoctorsFragment"
+        android:label="@string/nav_doctors"
+        tools:layout="@layout/fragment_doctors">
+        <action
+            android:id="@+id/action_doctorsFragment_to_doctorDetailsFragment"
+            app:destination="@id/doctorDetailsFragment">
+            <argument
+                android:name="doctorId"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_doctorsFragment_to_bookAppointmentFragment"
+            app:destination="@id/bookAppointmentFragment">
+            <argument
+                android:name="doctorId"
+                app:argType="string" />
+            <argument
+                android:name="doctorName"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/appointmentsFragment"
+        android:name="com.doctorview.app.fragments.AppointmentsFragment"
+        android:label="@string/title_my_appointments"
+        tools:layout="@layout/fragment_appointments">
+        <action
+            android:id="@+id/action_appointmentsFragment_to_bookAppointmentFragment"
+            app:destination="@id/bookAppointmentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.doctorview.app.fragments.ProfileFragment"
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_recordsFragment"
+            app:destination="@id/recordsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_emergencyFragment"
+            app:destination="@id/emergencyFragment" />
+    </fragment>
+
+    <!-- ===== Sections opened from the tabs ===== -->
+
+    <fragment
+        android:id="@+id/doctorDetailsFragment"
+        android:name="com.doctorview.app.fragments.DoctorDetailsFragment"
+        android:label="@string/title_doctor_details"
+        tools:layout="@layout/fragment_doctor_details">
+        <argument
+            android:name="doctorId"
+            app:argType="string"
+            android:defaultValue="" />
+        <action
+            android:id="@+id/action_doctorDetailsFragment_to_bookAppointmentFragment"
+            app:destination="@id/bookAppointmentFragment">
+            <argument
+                android:name="doctorId"
+                app:argType="string" />
+            <argument
+                android:name="doctorName"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookAppointmentFragment"
+        android:name="com.doctorview.app.fragments.BookAppointmentFragment"
+        android:label="@string/title_book_appointment"
+        tools:layout="@layout/fragment_section_placeholder">
+        <argument
+            android:name="doctorId"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="doctorName"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="selectedDate"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/symptomAnalysisFragment"
+        android:name="com.doctorview.app.fragments.SymptomAnalysisFragment"
+        android:label="@string/title_symptom_analysis"
+        tools:layout="@layout/fragment_symptom_analysis" />
+
+    <fragment
+        android:id="@+id/diseaseInfoFragment"
+        android:name="com.doctorview.app.fragments.DiseaseInfoFragment"
+        android:label="@string/title_disease_information"
+        tools:layout="@layout/fragment_disease_info">
+        <action
+            android:id="@+id/action_diseaseInfoFragment_to_diseaseDetailsFragment"
+            app:destination="@id/diseaseDetailsFragment">
+            <argument
+                android:name="diseaseId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/diseaseDetailsFragment"
+        android:name="com.doctorview.app.fragments.DiseaseDetailsFragment"
+        android:label="@string/title_disease_details"
+        tools:layout="@layout/fragment_disease_details">
+        <argument
+            android:name="diseaseId"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.doctorview.app.fragments.ChatFragment"
+        android:label="@string/title_online_consultation"
+        tools:layout="@layout/fragment_chat">
+        <action
+            android:id="@+id/action_chatFragment_to_chatRoomFragment"
+            app:destination="@id/chatRoomFragment">
+            <argument
+                android:name="doctorId"
+                app:argType="string" />
+            <argument
+                android:name="doctorName"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatRoomFragment"
+        android:name="com.doctorview.app.fragments.ChatRoomFragment"
+        android:label="@string/title_online_consultation"
+        tools:layout="@layout/fragment_chat_room">
+        <argument
+            android:name="doctorId"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="doctorName"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="patientId"
+            app:argType="string"
+            android:defaultValue="" />
+        <argument
+            android:name="patientName"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.doctorview.app.fragments.NewsFragment"
+        android:label="@string/title_healthcare_news"
+        tools:layout="@layout/fragment_news">
+        <action
+            android:id="@+id/action_newsFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment">
+            <argument
+                android:name="articleId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.doctorview.app.fragments.NewsDetailsFragment"
+        android:label="@string/title_article"
+        tools:layout="@layout/fragment_news_details">
+        <argument
+            android:name="articleId"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recordsFragment"
+        android:name="com.doctorview.app.fragments.RecordsFragment"
+        android:label="@string/title_medical_records"
+        tools:layout="@layout/fragment_records">
+        <action
+            android:id="@+id/action_recordsFragment_to_addRecordFragment"
+            app:destination="@id/addRecordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addRecordFragment"
+        android:name="com.doctorview.app.fragments.AddRecordFragment"
+        android:label="@string/title_add_record"
+        tools:layout="@layout/fragment_add_record" />
+
+    <fragment
+        android:id="@+id/emergencyFragment"
+        android:name="com.doctorview.app.fragments.EmergencyFragment"
+        android:label="@string/title_emergency_help"
+        tools:layout="@layout/fragment_emergency" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.doctorview.app.fragments.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

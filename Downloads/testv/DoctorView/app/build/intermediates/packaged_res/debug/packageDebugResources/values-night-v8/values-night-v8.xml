@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#0C171C</color>
+    <color name="border">#27404A</color>
+    <color name="on_background">#E6EEF2</color>
+    <color name="on_primary_container">#DDF5F8</color>
+    <color name="on_secondary_container">#DDF5F8</color>
+    <color name="on_surface">#E6EEF2</color>
+    <color name="on_surface_variant">#A5BCC4</color>
+    <color name="outline">#58707A</color>
+    <color name="primary_container">#12465A</color>
+    <color name="secondary_container">#12465A</color>
+    <color name="status_cancelled_bg">#3A1113</color>
+    <color name="status_cancelled_text">#FCA5A5</color>
+    <color name="status_completed_bg">#0F2E4D</color>
+    <color name="status_completed_text">#93C5FD</color>
+    <color name="status_confirmed_bg">#0A2E1D</color>
+    <color name="status_confirmed_text">#6EE7B7</color>
+    <color name="status_pending_bg">#3A2A08</color>
+    <color name="status_pending_text">#FCD34D</color>
+    <color name="surface">#13242B</color>
+    <color name="surface_variant">#1E343D</color>
+    <color name="text_primary">#E6EEF2</color>
+    <color name="text_secondary">#A5BCC4</color>
+    <style name="Theme.DoctorView" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

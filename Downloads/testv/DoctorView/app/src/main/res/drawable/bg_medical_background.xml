@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Soft medical-vibe background: light gradient with faint circles -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:endColor="@color/background"
+                android:startColor="#FFFFFF"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item
+        android:bottom="-120dp"
+        android:gravity="top|end"
+        android:right="-120dp"
+        android:top="-120dp">
+        <shape android:shape="oval">
+            <solid android:color="#1A1677F2" />
+            <size
+                android:width="420dp"
+                android:height="420dp" />
+        </shape>
+    </item>
+    <item
+        android:bottom="-100dp"
+        android:gravity="bottom|start"
+        android:left="-100dp">
+        <shape android:shape="oval">
+            <solid android:color="#1222D3EE" />
+            <size
+                android:width="360dp"
+                android:height="360dp" />
+        </shape>
+    </item>
+</layer-list>

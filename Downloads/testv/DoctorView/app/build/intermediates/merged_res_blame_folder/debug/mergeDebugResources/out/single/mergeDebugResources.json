@@ -1,0 +1,466 @@
+[
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_availability_day.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_availability_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\color_chip_bg_color.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\color\\chip_bg_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_emergency.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_emergency.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_date_day.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_date_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_time.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_circle_primary.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_circle_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_doctor_avatar.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_doctor_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_records.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_records.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_chat.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "com.doctorview.app-debug-58:/drawable_bg_fade_to_white.xml.flat",
+        "source": "com.doctorview.app-main-60:/drawable/bg_fade_to_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_symptom.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_symptom.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_disease.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_disease.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_doctor.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_specialty.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_specialty.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_heart.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_heart.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_disease_info.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_disease_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_disease.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_disease.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_doctor_details.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_doctor_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_header_gradient_bottom.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_header_gradient_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_top_doctor.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_top_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_emergency.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_emergency.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_news.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_filter.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_doctor_profile.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_doctor_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_doctor_appointment.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_doctor_appointment.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_doctors.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_doctors.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_first_aid_tip.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_first_aid_tip.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\color_chip_text_color.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\color\\chip_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_star.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_send.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_chat_room.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_chat_room.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_activity_doctor_main.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\activity_doctor_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_status_completed.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_status_completed.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_file.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_file.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_dot_inactive.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_dot_inactive.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_status_confirmed.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_status_confirmed.xml"
+    },
+    {
+        "merged": "com.doctorview.app-debug-58:/layout_activity_splash.xml.flat",
+        "source": "com.doctorview.app-main-60:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\color_bottom_nav_item_color.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\color\\bottom_nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_circle_white_translucent.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_circle_white_translucent.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_status_pending.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_status_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_doctor_appointments.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_doctor_appointments.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_doctor_availability.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_doctor_availability.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_doctor_edit_profile.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_doctor_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_doctor_patients.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_doctor_patients.xml"
+    },
+    {
+        "merged": "com.doctorview.app-debug-58:/drawable_bg_fade_from_dark.xml.flat",
+        "source": "com.doctorview.app-main-60:/drawable/bg_fade_from_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_news_details.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_news_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_doctor_records.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_doctor_records.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_record.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\anim_slide_up.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_info.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_circle_success.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_circle_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_book_appointment.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_book_appointment.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_add_record.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_add_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_doctors.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_doctors.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_patient_row.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_patient_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_status_cancelled.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_status_cancelled.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_dot_grey.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_dot_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\color_chip_stroke_color.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\color\\chip_stroke_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_news.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_symptom_analysis.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_symptom_analysis.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\menu_doctor_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\menu\\doctor_bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_message_other.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_message_other.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_splash_gradient.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_splash_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_ecg.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_ecg.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_chevron.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_chevron.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_activity_doctor_login.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\activity_doctor_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_message_mine.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_message_mine.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\anim_scale_in.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\anim\\scale_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_booking.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_logo.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_logo.xml"
+    },
+    {
+        "merged": "com.doctorview.app-debug-58:/layout_fragment_doctor_details.xml.flat",
+        "source": "com.doctorview.app-main-60:/layout/fragment_doctor_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_analysis_result.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_analysis_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_swipe_container.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_swipe_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_pill_outline.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_pill_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_disease_details.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_disease_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_card_emergency.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_card_emergency.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_doctor_dashboard.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_doctor_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_appointment.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_appointment.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_item_feature.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\item_feature.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_medical_background.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_medical_background.xml"
+    },
+    {
+        "merged": "com.doctorview.app-debug-58:/drawable_bg_fade_to_light.xml.flat",
+        "source": "com.doctorview.app-main-60:/drawable/bg_fade_to_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_chip.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_bubble_mine.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_bubble_mine.xml"
+    },
+    {
+        "merged": "com.doctorview.app-debug-58:/layout_fragment_home.xml.flat",
+        "source": "com.doctorview.app-main-60:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_section_placeholder.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_section_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_news.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_news.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_activity_doctor_register.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\activity_doctor_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_records.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_records.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_hero_gradient.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_hero_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\layout_fragment_appointments.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\layout\\fragment_appointments.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_ic_location.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_bubble_other.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_bubble_other.xml"
+    },
+    {
+        "merged": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-debug-58:\\drawable_bg_dot_active.xml.flat",
+        "source": "C:\\Users\\toufi\\.gradle\\daemon\\8.13\\com.doctorview.app-main-60:\\drawable\\bg_dot_active.xml"
+    }
+]

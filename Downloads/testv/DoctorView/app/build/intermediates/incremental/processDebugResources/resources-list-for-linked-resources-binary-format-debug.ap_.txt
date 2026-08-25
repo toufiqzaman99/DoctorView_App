@@ -1,0 +1,1 @@
+C:\Users\toufi\Downloads\testv\DoctorView\app\build\intermediates\compiled_navigation_res\debug\compileDebugNavigationResources\navigation_doctor_nav_graph.xml.flat C:\Users\toufi\Downloads\testv\DoctorView\app\build\intermediates\compiled_navigation_res\debug\compileDebugNavigationResources\navigation_nav_graph.xml.flat 

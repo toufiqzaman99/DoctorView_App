@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Doctor View logo: blue circle with a white medical cross -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M48,4 C72.3,4 92,23.7 92,48 C92,72.3 72.3,92 48,92 C23.7,92 4,72.3 4,48 C4,23.7 23.7,4 48,4 Z" />
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M42,30 h12 v12 h12 v12 h-12 v12 h-12 v-12 h-12 v-12 h12 Z" />
+</vector>

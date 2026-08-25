@@ -1,0 +1,136 @@
+<navigation
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/doctor_nav_graph"
+app:startDestination="@id/doctorDashboardFragment" >
+
+<!-- ===== Bottom-navigation tabs ===== -->
+
+<fragment
+    android:id="@+id/doctorDashboardFragment"
+    android:name="com.doctorview.app.fragments.DoctorDashboardFragment"
+    android:label="@string/doctor_nav_dashboard"
+    tools:layout="@layout/fragment_doctor_dashboard" >
+
+    <action
+        android:id="@+id/action_doctorDashboardFragment_to_doctorAvailabilityFragment"
+        app:destination="@id/doctorAvailabilityFragment" />
+    <action
+        android:id="@+id/action_doctorDashboardFragment_to_doctorRecordsFragment"
+        app:destination="@id/doctorRecordsFragment" />
+    <action
+        android:id="@+id/action_doctorDashboardFragment_to_doctorEditProfileFragment"
+        app:destination="@id/doctorEditProfileFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/doctorAppointmentsFragment"
+    android:name="com.doctorview.app.fragments.DoctorAppointmentsFragment"
+    android:label="@string/doctor_nav_appointments"
+    tools:layout="@layout/fragment_doctor_appointments" />
+<fragment
+    android:id="@+id/doctorMessagesFragment"
+    android:name="com.doctorview.app.fragments.DoctorMessagesFragment"
+    android:label="@string/doctor_nav_messages"
+    tools:layout="@layout/fragment_doctor_patients" >
+
+    <action
+        android:id="@+id/action_doctorMessagesFragment_to_chatRoomFragment"
+        app:destination="@id/chatRoomFragment" >
+        <argument
+            android:name="patientId"
+            app:argType="string" />
+        <argument
+            android:name="patientName"
+            app:argType="string" />
+    </action>
+
+</fragment>
+<fragment
+    android:id="@+id/doctorPatientsFragment"
+    android:name="com.doctorview.app.fragments.DoctorPatientsFragment"
+    android:label="@string/doctor_nav_patients"
+    tools:layout="@layout/fragment_doctor_patients" >
+
+    <action
+        android:id="@+id/action_doctorPatientsFragment_to_chatRoomFragment"
+        app:destination="@id/chatRoomFragment" >
+        <argument
+            android:name="patientId"
+            app:argType="string" />
+        <argument
+            android:name="patientName"
+            app:argType="string" />
+    </action>
+
+</fragment>
+<fragment
+    android:id="@+id/doctorProfileFragment"
+    android:name="com.doctorview.app.fragments.DoctorProfileFragment"
+    android:label="@string/doctor_nav_profile"
+    tools:layout="@layout/fragment_doctor_profile" >
+
+    <action
+        android:id="@+id/action_doctorProfileFragment_to_doctorEditProfileFragment"
+        app:destination="@id/doctorEditProfileFragment" />
+    <action
+        android:id="@+id/action_doctorProfileFragment_to_doctorAvailabilityFragment"
+        app:destination="@id/doctorAvailabilityFragment" />
+    <action
+        android:id="@+id/action_doctorProfileFragment_to_doctorSettingsFragment"
+        app:destination="@id/doctorSettingsFragment" />
+
+</fragment>
+
+<!-- ===== Secondary doctor screens ===== -->
+
+<fragment
+    android:id="@+id/doctorEditProfileFragment"
+    android:name="com.doctorview.app.fragments.DoctorEditProfileFragment"
+    android:label="@string/doctor_edit_profile"
+    tools:layout="@layout/fragment_doctor_edit_profile" />
+<fragment
+    android:id="@+id/doctorAvailabilityFragment"
+    android:name="com.doctorview.app.fragments.DoctorAvailabilityFragment"
+    android:label="@string/doctor_availability"
+    tools:layout="@layout/fragment_doctor_availability" />
+<fragment
+    android:id="@+id/doctorRecordsFragment"
+    android:name="com.doctorview.app.fragments.DoctorRecordsFragment"
+    android:label="@string/title_medical_records"
+    tools:layout="@layout/fragment_doctor_records" />
+
+<!-- Shared patient–doctor chat room -->
+<fragment
+    android:id="@+id/chatRoomFragment"
+    android:name="com.doctorview.app.fragments.ChatRoomFragment"
+    android:label="@string/title_online_consultation"
+    tools:layout="@layout/fragment_chat_room" >
+
+    <argument
+        android:name="doctorId"
+        android:defaultValue=""
+        app:argType="string" />
+    <argument
+        android:name="doctorName"
+        android:defaultValue=""
+        app:argType="string" />
+    <argument
+        android:name="patientId"
+        android:defaultValue=""
+        app:argType="string" />
+    <argument
+        android:name="patientName"
+        android:defaultValue=""
+        app:argType="string" />
+
+</fragment>
+
+<!-- Shared settings screen (same class as the patient side) -->
+<fragment
+    android:id="@+id/doctorSettingsFragment"
+    android:name="com.doctorview.app.fragments.SettingsFragment"
+    android:label="@string/title_settings"
+    tools:layout="@layout/fragment_settings" />
+</navigation>

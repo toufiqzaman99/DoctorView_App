@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="@dimen/spacing_medium"
+        android:paddingBottom="4dp">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/back"
+            android:src="@drawable/ic_back"
+            app:tint="@color/text_primary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="@string/doctor_edit_profile"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_name"
+                app:boxBackgroundColor="@color/surface"
+                app:boxCornerRadiusBottomEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusBottomStart="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopStart="@dimen/corner_radius_input">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:hint="@string/hint_specialty"
+                app:boxBackgroundColor="@color/surface"
+                app:boxCornerRadiusBottomEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusBottomStart="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopStart="@dimen/corner_radius_input">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etSpecialty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:hint="@string/hint_hospital"
+                app:boxBackgroundColor="@color/surface"
+                app:boxCornerRadiusBottomEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusBottomStart="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopStart="@dimen/corner_radius_input">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etHospital"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:hint="@string/hint_qualification"
+                app:boxBackgroundColor="@color/surface"
+                app:boxCornerRadiusBottomEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusBottomStart="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopStart="@dimen/corner_radius_input">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etQualification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:hint="@string/hint_experience"
+                app:boxBackgroundColor="@color/surface"
+                app:boxCornerRadiusBottomEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusBottomStart="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopStart="@dimen/corner_radius_input">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etExperience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:hint="@string/hint_fee"
+                app:boxBackgroundColor="@color/surface"
+                app:boxCornerRadiusBottomEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusBottomStart="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopStart="@dimen/corner_radius_input">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etFee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:hint="@string/hint_phone"
+                app:boxBackgroundColor="@color/surface"
+                app:boxCornerRadiusBottomEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusBottomStart="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopStart="@dimen/corner_radius_input">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:hint="@string/about_title"
+                app:boxBackgroundColor="@color/surface"
+                app:boxCornerRadiusBottomEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusBottomStart="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopEnd="@dimen/corner_radius_input"
+                app:boxCornerRadiusTopStart="@dimen/corner_radius_input">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etAbout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:minLines="3" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPickPhoto"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="@string/btn_pick_photo"
+                app:cornerRadius="@dimen/corner_radius_button"
+                app:icon="@drawable/ic_profile"
+                app:iconGravity="textStart"
+                app:iconTint="@color/primary"
+                app:strokeColor="@color/primary" />
+
+            <TextView
+                android:id="@+id/tvPhotoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/primary"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_large"
+                android:layout_marginBottom="@dimen/spacing_large"
+                android:text="@string/btn_save_profile"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="@dimen/corner_radius_button" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

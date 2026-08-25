@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== Primary: reference dark teal ===== -->
+    <color name="primary">#147C9B</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#DDF5F8</color>
+    <color name="on_primary_container">#0B5568</color>
+
+    <!-- ===== Secondary: reference blue ===== -->
+    <color name="secondary">#1687A7</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#DDF5F8</color>
+    <color name="on_secondary_container">#0B5568</color>
+
+    <!-- ===== Tertiary: reference success green ===== -->
+    <color name="tertiary">#35A87B</color>
+    <color name="on_tertiary">#FFFFFF</color>
+
+    <!-- ===== Surfaces ===== -->
+    <color name="background">#F5F8FA</color>
+    <color name="on_background">#17202A</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#17202A</color>
+    <color name="surface_variant">#EAF7FA</color>
+    <color name="on_surface_variant">#687780</color>
+    <color name="outline">#9FB7BF</color>
+    <color name="border">#DCE8EC</color>
+
+    <!-- ===== Status ===== -->
+    <color name="success">#35A87B</color>
+    <color name="warning">#F5B94C</color>
+    <color name="error">#E5484D</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="emergency">#E5484D</color>
+
+    <!-- ===== Basic ===== -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_translucent">#E6FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary">#17202A</color>
+    <color name="text_secondary">#687780</color>
+
+    <!-- ===== Ratings ===== -->
+    <color name="star">#F5B94C</color>
+
+    <!-- ===== Status chips ===== -->
+    <color name="status_pending_bg">#FFF6E5</color>
+    <color name="status_pending_text">#B78103</color>
+    <color name="status_confirmed_bg">#E7F7EF</color>
+    <color name="status_confirmed_text">#1C7C57</color>
+    <color name="status_completed_bg">#DDF5F8</color>
+    <color name="status_completed_text">#0B5568</color>
+    <color name="status_cancelled_bg">#FDECEC</color>
+    <color name="status_cancelled_text">#B42323</color>
+
+    <!-- ===== Quick-access accents (teal family, muted) ===== -->
+    <color name="feature_teal">#147C9B</color>
+    <color name="feature_blue">#1687A7</color>
+    <color name="feature_green">#35A87B</color>
+    <color name="feature_amber">#F5B94C</color>
+    <color name="feature_violet">#147C9B</color>
+    <color name="feature_sky">#1687A7</color>
+    <color name="feature_rose">#E5484D</color>
+    <color name="feature_slate">#687780</color>
+
+    <!-- ===== Launcher icon ===== -->
+    <color name="ic_launcher_background">#147C9B</color>
+
+    <!-- ===== Splash & gradients (reference teal → cyan → very light) ===== -->
+    <color name="splash_start">#F5F8FA</color>
+    <color name="splash_end">#DDF5F8</color>
+    <color name="hero_start">#147C9B</color>
+    <color name="hero_mid">#33AECB</color>
+    <color name="hero_end">#EAF7FA</color>
+</resources>
